@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<LangVersion>preview</LangVersion>
+
+	  <PackageId>TinyAnimations</PackageId>
+	  <Version>1.0.1</Version>
+	  <Authors>Stefan Bogaard</Authors>
+	  <Company>Stefan Bogaard</Company>
+	  <Description>Tiny animations to add some extra flair to any .NET application.</Description>
+	  <PackageTags>animation;MAUI;dotnet;binding;viewmodel</PackageTags>
+	  <RepositoryUrl>https://github.com/stefanbogaard86/TinyAnimations</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageReleaseNotes>First version with a Dot animator...</PackageReleaseNotes>
+	  <Title>Tiny animations to add some extra flair to any .NET application.</Title>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
