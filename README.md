@@ -1,2 +1,2 @@
-# TinyAnimations
-Tiny animations to add some extra flair to any .NET application.
+﻿- `ScopedDotAnimator`: Auto-disposing dot animation for scoped tasks
+- `DotAnimator`: Manual-start/stop version for persistent animations
